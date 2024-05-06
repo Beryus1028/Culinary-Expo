@@ -1,0 +1,215 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headh2{
+    width: 100%;
+    padding: 35px;
+    text-align: center; 
+    color: #70062C; 
+    background-color: #edbe5e; 
+    font-size: 35px; 
+}
+
+
+.main{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+.storyMission{
+    background-color: #70062C;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+.main p{
+    color: #333;
+    font-size: 22px;
+    max-width: 1100px;
+    margin-left: 300px;
+    padding: 20px;
+}
+
+.member {
+    overflow: hidden;
+    padding: 50px;
+    margin: 5px;
+}
+
+.member img {
+    float: left;
+    margin-right: 30px;
+    max-width: 220px;
+    border-radius: 40%;
+}
+.memberContent {
+    padding: 10px;
+    margin: 5px;
+    text-align: justify;
+    font-size: 20px;
+}
+.name {
+    color: white;
+    background-color: #70062C;
+    width: 100%;
+    max-width: 7000px;
+    padding: 10px;
+    padding-right: 200px;
+    margin-right: 200px;
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .headh2{
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+
+    }
+    .main p {
+        max-width: 100%; /* Adjusted for larger screens */
+    }
+
+    .name {
+        max-width: 100%; /* Adjusted for larger screens */
+    }
+}
+
+
+  /* THIS IS FOOTER SECTION */
+
+  .footer{
+    background-color: #70062c;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section{
+    margin: 0 35px;
+    flex: 1 1 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.footer-section:last-child {
+    margin-right: 0;
+}
+
+
+.footer-section h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-section p a:hover {
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    width: 10px;
+}
+
+
+.feedback-form input,
+.feedback-form textarea,
+.feedback-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #181818;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.feedback-form button:hover{
+    background-color: white;
+    color: #70062c;
+    cursor: pointer;
+    font-size: large;
+}
+
+
+.feedback-form textarea{
+    /* background-color: rgb(194, 193, 193); */
+    color: black;
+}
+
+.feedback-form button{
+    background-color:#EDBE5E;
+    color:#70062c;
+    /* text-align: center; */
+    font-size: larger;
+}
+
+
+.social-icons a {
+display: inline-block;
+margin: 2px;
+padding: 0;
+justify-content: center;
+align-items: center;
+}
+
+.social-icons img {
+    width: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    float: left;
+}
+
+
+.base {
+    text-align: center;
+    font-style: italic;
+    margin: 10px;
+}
+
+@media screen and (max-width:768px) {
+
+
+
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        margin: 5px;
+    }
+
+    .footer-section{
+        flex: 1 1 auto;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .feedback-form input,
+    .feedback-form textarea,
+    .feedback-form button{
+
+        align-items: center;
+        padding: 5px;
+        margin: 5p;
+    }    
+}
+
